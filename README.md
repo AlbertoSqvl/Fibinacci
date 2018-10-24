@@ -15,10 +15,7 @@
 
 5. Docker file is in the docker directory
 
-6. To deploy with docker container on local machine:
-   https://hub.docker.com/r/kkphk/fibonacci/
-
-7. To deploy with docker container on AWS using Elastic Beanstalk:
+6. To deploy with docker container on AWS using Elastic Beanstalk:
    - AWS Elastic Beanstalk, select Create Web Server, Generic Docker-Go environment, upload aws-eb/fibonacci.zip and launch. 
    - Click on the application URL on the AWS Elastic Beanstalk page.
    - Enter a forward slash and the Fibonacci number n at the end of the URL.
